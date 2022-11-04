@@ -12,7 +12,7 @@ public class FrequencyOfCharacters {
             String str1 = "";
             for (int i = 0; i < str.length(); i++) {
                 int c = str.length() - str.replace("" + str.charAt(i), "").length();
-                str1   += "" + c + str.charAt(i);
+                str1 += "" + c + str.charAt(i);
             }
 
             String str2 = "";
